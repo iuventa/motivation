@@ -27,8 +27,15 @@ h1{
     text-indent: -999999999px;
     margin: 50px auto;
     animation: animacia 2s infinite;
+    -webkit-animation: animacia 2s infinite;
 }
 @keyframes animacia {
+    0%{width: 150px; height: 150px;}
+    50%{width: 200px; height: 200px;}
+    100%{width: 150px; height: 150px;}
+}
+
+@-webkit-keyframes animacia {
     0%{width: 150px; height: 150px;}
     50%{width: 200px; height: 200px;}
     100%{width: 150px; height: 150px;}

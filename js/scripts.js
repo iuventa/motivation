@@ -24,3 +24,7 @@ function showtext(){
     document.getElementById("text").innerHTML = xili[ragacricxvi];
 
 }
+
+const logo = document.getElementById("logo");
+
+logo.addEventListener("click", showtext);
