@@ -28,6 +28,11 @@ h1{
     margin: 50px auto;
     animation: animacia 2s infinite;
     -webkit-animation: animacia 2s infinite;
+    h1 {
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+}
 }
 @keyframes animacia {
     0%{width: 150px; height: 150px;}
